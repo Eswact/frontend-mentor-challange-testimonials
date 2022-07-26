@@ -1,0 +1,314 @@
+.fxr {
+    display: flex;
+    flex-direction: row;
+}
+    
+.fxc {
+    display: flex;
+    flex-direction: column;
+}
+    
+body {
+    background-color: #EDF2F8;
+}
+    
+#bd {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    justify-content: center;
+    background-color: #EDF2F8;
+}
+    
+#bd2 {
+    width: 75%;
+    height: 100%;
+}
+    
+#bd3 {
+    width: 100%;
+    height: 48%;
+}
+    
+.break {
+    height: 4%;
+    width: 100%;
+}
+    
+#bd4 {
+    width: 100%;
+    height: 48%;
+}
+    
+#box1 {
+    margin: 2%;
+    background-color: #733FC8;
+    width: 65%;
+    height: 100%;
+    border: 1px solid #733FC8;
+    border-radius: 10px;
+}
+
+#box2 {
+    margin: 2%;
+    background-color: #49556B;
+    width: 35%;
+    height: 100%;
+    border: 1px solid #49556B;
+    border-radius: 10px;
+}
+    
+#box3 {
+    margin: 2%;
+    background-color: #FFFFFF;
+    width: 20%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+    
+#box4 {
+    margin: 2%;
+    background-color: #FFFFFF;
+    width: 30%;
+    height: 95%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+    
+#box5 {
+    margin: 2%;
+    background-color: #18202D;
+    width: 70%;
+    height: 95%;
+    border: 1px solid #18202D;
+    border-radius: 10px;
+}
+    
+#imt {
+    position: absolute;
+    top: 20px;
+    left: 37%;
+}
+    
+.prof {
+    height: 44px;
+    width: 44px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 42px;
+}
+    
+.name {
+    margin-left: 25px;
+    margin-top: 30%;
+}
+    
+.vg {
+    margin-left: 25px;
+    color: #D6D7D9;
+}
+    
+.gr {
+    color: #9ea1a3;
+}
+    
+.bl {
+    color: black;
+}
+     
+.wh {
+    color: white;
+}
+    
+.pa {
+    padding: 10px 50px;
+    font-size: large;
+}
+    
+.pas {
+    padding: 10px 50px;
+    font-size: x-large;
+}
+
+@media screen and (min-width: 1241px) and (max-width:1700px){
+
+    #box3{
+        width: 25%;
+    }
+
+    #box4{
+        width: 55%;
+    }   
+
+}
+
+@media screen and (min-width: 1001px) and (max-width:1240px) {
+
+    #imt {
+        left: 34%;
+    }
+
+    #bd{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #box1 {
+        width: 65%;
+        height: 50%;
+    }
+    
+    #box2 {
+        width: 35%;
+        height: 50%;
+    }
+        
+    #box3 {
+        width: 25%;
+        height: 70%;
+    }
+        
+    #box4 {
+        width: 30%;
+        height: 50%;
+    }
+        
+    #box5 {
+        width: 70%;
+        height: 50%;
+    }
+
+    .pa {
+        padding: 3% 6%;
+        font-size: medium;
+    }
+        
+    .pas {
+        padding: 3% 6%;
+        font-size: large;
+    }
+
+}
+
+@media screen and (min-width: 800px) and (max-width:1000px) {
+
+    #imt {
+        left: 28%;
+    }
+
+    #bd{
+        width: 100%;
+        height: 100%;
+    }
+
+    #box1 {
+        width: 65%;
+        height: 50%;
+    }
+    
+    #box2 {
+        width: 35%;
+        height: 50%;
+    }
+        
+    #box3 {
+        width: 30%;
+        height: 100%;
+    }
+        
+    #box4 {
+        width: 35%;
+        height: 50%;
+    }
+        
+    #box5 {
+        width: 65%;
+        height: 50%;
+    }
+
+    .pa {
+        padding: 2% 4%;
+        font-size: 15px;
+    }
+        
+    .pas {
+        padding: 2% 4%;
+        font-size: 20px;
+    }
+}
+    
+@media only screen and (max-width: 799px) {
+    
+.fxr {
+    flex-direction: column;
+}
+    
+#bd {
+    width: 100%;
+    height: 100%;
+}
+    
+#bd2 {  
+    width: 100%;
+    height: 100%;
+}
+    
+#bd3 {
+    width: 100%;
+    height: 100%; 
+}
+    
+.break {
+    display: none;
+}
+    
+#bd4 { 
+    width: 100%;
+    height: 100%;
+}
+    
+#box1 {
+    margin: 2%;
+    width: 100%;
+    height: 100%;
+}
+    
+#box2 { 
+    width: 100%;
+    height: 100%;
+}
+    
+#box3 { 
+    width: 100%;
+    height: 100%; 
+} 
+    
+#box4 { 
+    width: 100%;
+    height: 100%; 
+}
+    
+#box5 {
+    width: 100%;
+    height: 100%;
+}
+     
+.prof {
+    height: 44px;
+    width: 44px;
+    margin-left: 16%; 
+    margin-top: 10%;
+}
+    
+.name {
+    margin-left: 15%;
+    margin-top: 5%; 
+}
+
+.vg { 
+    margin-left: 15%; 
+}
+
+}
